@@ -2,7 +2,7 @@ title: Bean House de Hansome Hoo
 description: Here I share my tech-knowledge and view points towards the world.
 show_downloads: true
 
-baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+# baseurl: "/cayman-blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://hansomehu.github.io" # change this to the base hostname & protocol for your site
 
 
