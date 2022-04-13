@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog Classification
-tagline: What I'm doing now
+tagline: 技术博客的分类浏览更轻松！
 permalink: /classification.html
 ref: classification 
 order: 2
