@@ -7,7 +7,7 @@ ref: classification
 order: 2
 ---
 ## Spring Cloud + Cloud Alibaba 微服务系列
-[Spring面试答题思路-原理篇-校招版](https://hansomehu.github.io/spring-interview-basic.html)
+[Spring面试答题思路-原理篇-校招版](https://hansomehu.github.io/spring.html)
 
 ## 从Spring到SpringBoot的应用与原理
 ## Spring Security
