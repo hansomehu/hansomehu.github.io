@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "spring-interview-basic"
-permalink: /spring.html
+permalink: /spring
 ---
 # Spring面试问题答题思路（初级校招版）
 
