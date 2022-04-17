@@ -5,6 +5,8 @@ show_downloads: true
 baseurl:  # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://hansomehu.github.io" # change this to the base hostname & protocol for your site
 
+encoding: utf-8
+
 
 google_analytics:
 
