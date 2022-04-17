@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Spring面试问题答题思路（初级校招版)"
+permalink: /spring-interview-basic.html
+ref: spring-interview-basic
+---
 # Spring面试问题答题思路（初级校招版）
 
 总分结构
