@@ -1,7 +1,6 @@
 ---
 layout: post
 title: " oo"
-permalink: /spring.html
 ref: spring
 ---
 # Spring面试问题答题思路（初级校招版）
