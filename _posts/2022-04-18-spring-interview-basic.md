@@ -1,7 +1,7 @@
 ---
 layout: post
-title: " oo"
-ref: spring
+title: "spring-interview-basic"
+
 ---
 # Spring面试问题答题思路（初级校招版）
 
