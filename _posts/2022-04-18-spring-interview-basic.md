@@ -1,3 +1,8 @@
+---
+layout: post
+title: "spring-interview-basic"
+permalink: /spring
+---
 # Spring面试问题答题思路（初级校招版）
 
 总分结构
@@ -60,8 +65,6 @@ createBeanFactory , getBean ,doGetBean , createBean , doCreateBean,createBeanIns
 
 ## **3、描述Bean的生命周期**
 
-<img src="../images/Spring_interview_basic.assets/image-20220411151731744.png" alt="image-20220411151731744" style="zoom: 25%;" />
-
 在表述的时候不要只说图片中有的关键点，要学会扩展描述
 
 设置对象这步骤 可以衍生出循环依赖的问题
@@ -103,8 +106,6 @@ createBeanFactory , getBean ,doGetBean , createBean , doCreateBean,createBeanIns
 
 
 ## **5、循环依赖的发生与解决**
-
-<img src="../images/Spring_interview_basic.assets/image-20220411232515633.png" alt="image-20220411232515633" style="zoom: 25%;" />
 
 循环依赖就是由于两个Bean对象还没有生成的时候或者在生命周期还没有完成初始化的过程中，二者彼此都有了依赖，导致初始化赋值无法继续下去，因为依赖的对方还没有初始化完成，也即在内存空间中还没有分配地址（也就没有引用）。
 
@@ -217,8 +218,6 @@ A方法调用B方法，AB方法都有事务，并且传播特性不同，那么A
 简单讲就是SpringBootApplication注解当中核心组成部分@EnableAutoConfiguration里面导入了两个东西，一是@Import(AutoConfigurationPackages.Registrar.class，该包导入了导包规则；其次是@Import(AutoConfigurationImportSelector.class)，这个包则是指定从从META-INF/spring.factories中按照Registrar的规则来讲依赖包进行导入。
 
 如何识别到这些Imports见下图
-
-<img src="../images/Spring_interview_basic.assets/image-20220413142340845.png" alt="image-20220413142340845" style="zoom:50%;" />
 
 上面这两部分加起来才算对自动装配的原理有了一个较为深入的理解
 

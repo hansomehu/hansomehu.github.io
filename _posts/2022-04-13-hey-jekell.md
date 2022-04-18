@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "hey jekell"
-permalink: /hey.html
-ref: hey
+permalink: /he.html
+ref: he
 ---
 ## hey jekell
 new to jekell
