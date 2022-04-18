@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "spring-interview-basic"
+title: "Spring面试答题思路-原理篇-校招版"
 permalink: /spring
 ---
 # Spring面试问题答题思路（初级校招版）
