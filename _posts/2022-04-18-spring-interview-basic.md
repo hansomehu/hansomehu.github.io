@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spring面试答题思路-原理篇-校招版"
-permalink: /spring
+permalink: /spring-interview-basic
 ---
 # Spring面试问题答题思路（初级校招版）
 
@@ -64,6 +64,7 @@ createBeanFactory , getBean ,doGetBean , createBean , doCreateBean,createBeanIns
 
 
 ## **3、描述Bean的生命周期**
+<img src="/assets/images/spring-interview-basic/image-20220411151731744.png" alt="image-20220411151731744" style="zoom: 25%;" />
 
 在表述的时候不要只说图片中有的关键点，要学会扩展描述
 
