@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Spring面试答题思路-原理篇-校招版"
+title: "Spring基础原理问题答题思路"
 permalink: /spring-interview-basic
 ---
-# Spring面试问题答题思路（初级校招版）
+这篇文章分享了关于Spring面试中常见原理问题的答题思路，由于这种框架原理在初级中级开发人员招聘中不是重点，所以这篇原理文章捋明白了足够应付校招！
 
 总分结构
 
