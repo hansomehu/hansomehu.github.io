@@ -1,3 +1,9 @@
+---
+layout: post
+title: "RabbitMQ面试常见问题整合"
+permalink: /rabbitmq-theory
+---
+
 RabbitMQ面试常见的一些问题，后续会深入原理，一直保持更新...
 
 
