@@ -48,7 +48,7 @@ IOC的底层实现可以理解为Spring容器是如何来管理Bean对象的，�
 
 3. 通过createBean，doCreateBean方法，以反射的方式创建对象，一般情况下使用的是无参的构造器(getDeclaredConstructor(),newinstance)。在创建对象的过程中需要BeanDefinition对象，其中记录了对象的各种信息
 
-   <img src="2022-04-18-spring-interview-basic.assets/image-20220510165705276.png" alt="image-20220510165705276" style="zoom: 33%;" />
+   <img src="/assets/images/spring-interview-basic/image-20220510165705276.png" alt="image-20220510165705276" style="zoom: 33%;" />
 
 3. 进行对象的属性填充populateBean
 
