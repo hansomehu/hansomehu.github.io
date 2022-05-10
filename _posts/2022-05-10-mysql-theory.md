@@ -1,6 +1,10 @@
+---
+layout: post
+title: "MySQL理论笔记"
+permalink: /mysql-theory
+---
+
 从SELECT * 到删库跑路——MySQL最全(qiang)笔记
-
-
 
 ## 1. 数据库的范式理论
 
