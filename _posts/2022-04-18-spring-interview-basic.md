@@ -30,7 +30,10 @@ Inverse Of Control：理论思想，原来的对象是由使用者来进行控�
 DI：@Autowired populateBean，把对应属性注入到具体的Bean中去
 
 天天说的Spring容器是什么？ -->  可以理解成一个存储对象的数据结构，而且存的对象限定为Bean对象，它使用map KV 键值对形式来存储。在spring中一般存在三级缓存，三级的划分标准就是Bean对象的不同生命周期阶段，例如singletonObjeacts级别（一级缓存）的空间用来存放完整的Bean对象即已经初始化完成且populate了数据的Bean对象。整个Bean的生命周期，从Bean的创建到使用到销毁的过程全部都是由这个Spring容器来进行管理的。
-到底
+
+到底啥是Bean对象呢？  -->  Bean对象其实就是普通的Java对象，只不过遵守了一些特定的规则，比如必须有构造方法、getter和setter方法。
+说到底，Spring容器就是一个专门管理Java对象的一套程序，比如在使用@Autowired的时候，我们不需要手动引入对象，Spring会帮我们自动引入在Spring容器中已有的该类对象。如果没有的话，则需要通过@Bean、@Service、@Component等把一个类对象交给Spring容器来进行管理。
+
 
 **分**：
 
